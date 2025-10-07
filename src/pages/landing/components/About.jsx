@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import AboutText from "../../../components/AboutText";
-import AboutImage from "../../../assets/images/about-image.jpg";
+import Margs4 from "../../../assets/images/margs4.jpg";
 import "../../../App.css";
 import AboutStats from "../../../components/AboutStats";
 import AOS from "aos"
@@ -25,11 +25,12 @@ const About = () => {
         About Us
       </p>
       {/* Image Section */}
-      <div className="w-full md:w-1/2 flex justify-center relative ">
+      <div className="w-full md:w-1/2 flex justify-center relative overflow-hidden rounded-[30px] min-h-[400px]">
+
         <img
-          src={AboutImage}
+          src={Margs4}
           alt="About us"
-          className="max-w-full h-auto rounded-[30px] "
+          className="w-full h-full object-cover rounded-[30px] "
           loading="lazy"
         />
         <AboutStats />

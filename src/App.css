@@ -18,19 +18,19 @@ h6,
 /* Landing Page - Herosection */
 
 .hero-image {
-  background-image: url(./assets/images/hero-image1.jpg);
+  background-image: url(./assets/images/margs.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .hero-overlay {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
   height: inherit;
 }
 
 .about-bg {
-  background-image: url(./assets/images/about-image.jpg);
+  background-image: url(./assets/images/margs4.jpg);
   background-position: center;
   height: 100%;
   background-size: cover;
@@ -38,12 +38,15 @@ h6,
 }
 
 .services-bg {
-  background-image: url(./assets/images/services-bg.png);
+  background-image: url(./assets/images/margs2.jpg);
 }
 
 /* promo section bg image */
 .promo-bg {
-  background-image: url(./assets/images/promo-bg.webp);
+  background-image: url(./assets/images/margs3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   border-radius: 30px;
 }
 
