@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import SectionHeading from "../../../components/SectionHeading";
-import MaizeCob from "../../../assets/images/maize.webp";
+import Margs2 from "../../../assets/images/margs2.jpg";
 import K from "../../../constants";
 import FertilizerCards from "../../../components/FertilizerCards";
 import AOS from "aos"
@@ -46,8 +46,8 @@ const TypesOfFertilizer = () => {
           <div className="px-3 mt-10 flex-1 ">
             <div className="text-center ">
               <img
-                src={MaizeCob}
-                alt="Maize Cob"
+                src={Margs2}
+                alt="types"
                 className="max-w-full height-auto"
                 loading="lazy"
               />
