@@ -1,10 +1,14 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import DotSVG from "../assets/svg/dot.svg";
 import { AiOutlinePhone, AiOutlineMail } from "react-icons/ai";
 import K from "../constants";
 import AOS from "aos"
 import "aos/dist/aos.css"
 
+interface NavLink {
+  name: string;
+  id: string;
+}
 
 const FooterNav = () => {
   
@@ -20,7 +24,7 @@ const FooterNav = () => {
     <nav className="pt-20  sm:pt-28">
       <div className="flex flex-col sm:flex-row sm:justify-between bg-[#EDDD5E] sm:py-9 py-5 sm:px-8 gap-5">
         <div className="flex   justify-start gap-5 flex-wrap mx-auto sm:mx-0 sm:justify-center">
-          {K.NAVLINKS.map((link, index) => {
+          {K.NAVLINKS.map((link: NavLink, index: number) => {
             return (
               <div data-aos="fade-right"  key={index}>
                 <h5 className="font-normal text-green-950 text-[16px] sm:text-[13px] flex items-center gap-2">

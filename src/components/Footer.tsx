@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Logo from "../assets/logo/logo1.svg";
-import FooterNav from "./FooterNav";
+import FooterNav from "./FooterNav.tsx";
 import AOS from "aos"
 import "aos/dist/aos.css"
 
