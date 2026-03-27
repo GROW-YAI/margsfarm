@@ -24,3 +24,15 @@ dist-ssr
 *.sw?
 
 package-lock.json
+
+# Environment files
+.env
+.env.local
+.env.production
+.env*.local
+
+# Next.js build output
+.next/
+
+# README (local only)
+README.md
