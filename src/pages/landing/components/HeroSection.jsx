@@ -24,7 +24,7 @@ const HeroSection = () => {
             <h5 data-aos="fade-down" data-aos-md="fade-left" className=" text-white tracking-wider  border border-white rounded-full sm:font-medium max-w-max mb-7 px-5 sm:pt-[3px] pb-[1px] text-xs">
               BELIEVE IN QUALITY !
             </h5>
-            <h1 data-aos="fade-right" data-aos-delay="200" className="text-3xl sm:text-7xl sm:font-bold sm:leading-[100px] text-white ">
+            <h1 data-aos="fade-right" data-aos-delay="200" className="text-left text-3xl sm:text-7xl sm:font-bold sm:leading-[100px] text-white ">
               <span className=" text-3xl sm:text-[40px]">Margi Papabi</span>
               <br />
               Agro Products

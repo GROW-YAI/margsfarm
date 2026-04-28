@@ -24,3 +24,21 @@ dist-ssr
 *.sw?
 
 package-lock.json
+pnpm-lock.yaml
+pnpm-lock.yaml.*
+widget-test.html
+ToDo.md
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env*.local
+
+# Next.js build output
+.next/
+
+# README (local only)
+# README.md
